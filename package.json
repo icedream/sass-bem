@@ -1,0 +1,29 @@
+{
+  "name": "sass-bem",
+  "version": "1.0.0",
+  "description": "Implement the BEM naming convention using SASS.",
+  "main": "index.sass",
+  "scripts": {
+    "test": "node-sass index.sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icedream/sass-bem.git"
+  },
+  "keywords": [
+    "sass",
+    "bem",
+    "naming",
+    "convention",
+    "scss"
+  ],
+  "author": "Carl Kittelberger <icedream@icedream.pw>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icedream/sass-bem/issues"
+  },
+  "homepage": "https://github.com/icedream/sass-bem#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
