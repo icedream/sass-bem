@@ -1,3 +1,7 @@
 =block($name)
   .#{$name}
     @content
+
+@if $enable-bem-aliases
+  =b($name)
+    +modifier($name)

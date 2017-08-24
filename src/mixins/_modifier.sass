@@ -1,3 +1,7 @@
 =modifier($name)
   &#{&}#{$modifier-separator}#{$name}
     @content
+
+@if $enable-bem-aliases
+  =m($name)
+    +modifier($name)

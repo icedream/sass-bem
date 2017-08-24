@@ -1,3 +1,7 @@
 =element($name)
   &#{$element-separator}#{$name}
     @content
+
+@if $enable-bem-aliases
+  =e($name)
+    +modifier($name)
