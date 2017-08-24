@@ -9,6 +9,11 @@ Installation in any project is as simple as running this command:
 
     npm install -S sass-bem
 
+## Configuration
+
+The code can be configured to use different separators or to implement
+shorthands for all mixins. Look at [src/\_variables.sass](src/_variables.sass) to find out what variables can be tweaked for this.
+
 ## Usage
 
 ### SCSS
