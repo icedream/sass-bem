@@ -16,9 +16,13 @@ shorthands for all mixins. Look at [src/\_variables.sass](src/_variables.sass) t
 
 ## Usage
 
+Examples below assume to be part of an npm project with Webpack and sass-loader set up with this package installed.
+
 ### SCSS
 
 ```scss
+@import "~sass-bem"
+
 // Block called "menu"
 @include block(menu) {
     display: flex;
@@ -42,6 +46,8 @@ shorthands for all mixins. Look at [src/\_variables.sass](src/_variables.sass) t
 ### Sass
 
 ```sass
+@import ~sass-bem
+
 // Block called "menu"
 +block(menu)
     display: flex
