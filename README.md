@@ -1,4 +1,6 @@
 # sass-bem
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/icedream/sass-bem.svg)](https://greenkeeper.io/)
 Implement the BEM naming convention for stylesheets using Sass.
 
 ## Installation
