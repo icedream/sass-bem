@@ -2,6 +2,6 @@
   .#{$name}
     @content
 
-@if $enable-bem-aliases
-  =b($name)
-    +modifier($name)
+=b($name)
+    @if $enable-bem-aliases
+        +modifier($name)

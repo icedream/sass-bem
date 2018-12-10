@@ -2,6 +2,6 @@
   &#{&}#{$modifier-separator}#{$name}
     @content
 
-@if $enable-bem-aliases
-  =m($name)
+=m($name)
+  @if $enable-bem-aliases
     +modifier($name)

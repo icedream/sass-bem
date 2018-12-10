@@ -2,6 +2,6 @@
   &#{$element-separator}#{$name}
     @content
 
-@if $enable-bem-aliases
-  =e($name)
+=e($name)
+  @if $enable-bem-aliases
     +modifier($name)
