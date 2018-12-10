@@ -1,6 +1,6 @@
 {
   "name": "sass-bem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Implement the BEM naming convention using SASS.",
   "main": "index.sass",
   "scripts": {
